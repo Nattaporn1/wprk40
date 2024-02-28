@@ -11,5 +11,7 @@ public class Test{
         System.out.println(c.health);
         dog d = new dog();
         System.out.println(d.health);
+        Mammal m = c;
+        System.out.println(m);
     }
 }
